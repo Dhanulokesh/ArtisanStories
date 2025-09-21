@@ -97,19 +97,12 @@ cd Artisan Stories
 
 ### 2️⃣ Install dependencies
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
 ### 3️⃣ Run the development server:
 ```bash
-uvicorn app.main:app --reload
-```
-
-### 4️⃣ Run frontend
-```bash
-cd frontend
-npm install
-npm start
+npm run dev
 ```
 
 ---
